@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 70px;  
+  border-bottom: solid 1px gainsboro;
+
+  [id = groupAvatar] {
+    margin-left: 15px;
+  }
+}

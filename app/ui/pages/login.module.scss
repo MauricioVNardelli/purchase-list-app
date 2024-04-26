@@ -1,0 +1,14 @@
+.title {
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+  .paper {
+    all: unset;
+    max-width: 80%;
+  }
+
+}

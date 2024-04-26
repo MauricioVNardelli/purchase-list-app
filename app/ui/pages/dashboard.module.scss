@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  //background-color: antiquewhite;
+  height: calc(100% - 70px);
+  width: 100%;
+}
+
+.table {
+  margin-top: 40px;
+  width: 60%;
+  //max-height: 80%;  
+}
