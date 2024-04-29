@@ -9,7 +9,7 @@ const avatar = 'https://raw.githubusercontent.com/mantinedev/mantine/master/.dem
 export default function Header() {
   const { user } = useContext(GlobalContext);
 
-  console.log(user);
+  console.log(user?.name)
 
   return (
     <div className={style.container}>

@@ -44,7 +44,7 @@ export default function Login() {
       
       if (response.data.length > 0) {
         setCookie(undefined, 'purchase-list-app.token', 'authorized');
-        await setGlobalUser(response.data);        
+        await setGlobalUser(response.data[0]);        
         router.push('/dashboard');
       }
 
